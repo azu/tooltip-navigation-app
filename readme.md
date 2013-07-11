@@ -2,6 +2,8 @@
 
 Tooltip Navigation Example project
 
+* https://www.youtube.com/watch?v=5y2JM1LhykU
+
 ## Installation
 
     $ pod install

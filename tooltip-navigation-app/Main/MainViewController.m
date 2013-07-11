@@ -58,15 +58,13 @@
         return;
     }
     self.popTipView = [[CMPopTipView alloc] initWithMessage:tutorialData.message];
-    self.popTipView.textColor = [UIColor blackColor];
-    self.popTipView.backgroundColor = [UIColor colorWithRed:255 / 255.0 green:247 / 255.0 blue:204 / 255.0 alpha:1.0];
     self.popTipView.tag = tutorialData.tutorialType;
     self.popTipView.delegate = self;
-    id targetView = [self viewForMainViewOutletType:tutorialData.outletType];
-    if ([targetView isKindOfClass:[UIBarButtonItem class]]) {
-        [self.popTipView presentPointingAtBarButtonItem:targetView animated:YES];
+    id viewAtPoint = [self viewForMainViewOutletType:tutorialData.outletType];
+    if ([viewAtPoint isKindOfClass:[UIBarButtonItem class]]) {
+        [self.popTipView presentPointingAtBarButtonItem:viewAtPoint animated:YES];
     } else {
-        [self.popTipView presentPointingAtView:targetView inView:self.view animated:YES];
+        [self.popTipView presentPointingAtView:viewAtPoint inView:self.view animated:YES];
     }
 }
 
