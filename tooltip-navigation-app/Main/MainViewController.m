@@ -78,7 +78,7 @@
     TutorialData *nextTutorialData = [self.tutorialModel nextTutorialData];
     [self showTutorial:nextTutorialData];
 }
-
+// ツールチップがクリックされたら、CheckPointを更新 -> KVOで検知
 - (void)popTipViewWasDismissedByUser:(CMPopTipView *) popTipView {
     self.popTipView = nil;
     TutorialType tutorialType = (TutorialType)popTipView.tag;

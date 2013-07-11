@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		17B5C220D8A02AB6EDB89523 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C7197615B95B141D7F58 /* MainStoryboard.storyboard */; };
 		17B5C242C00411CE707D4601 /* TutorialDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C848020A4DD85F4D91C5 /* TutorialDataManager.m */; };
+		17B5C27F6ED59C18D1633AB4 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CE57D0EDE69747BA65D2 /* readme.md */; };
 		17B5C2C0229D0822BD2882F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C08AC787A4507161CE60 /* AppDelegate.m */; };
 		17B5C425FF10BA7B328F9386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CE1CD4994AD43A8FB286 /* InfoPlist.strings */; };
 		17B5C46B3795CA45E376427D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CD66DAE55B4D45962273 /* CoreGraphics.framework */; };
@@ -68,6 +69,7 @@
 		17B5CD66DAE55B4D45962273 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		17B5CD91A308A12BA2E1C9FA /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
 		17B5CDDDD8164D460337DD8F /* TutorialDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialDataManager.h; sourceTree = "<group>"; };
+		17B5CE57D0EDE69747BA65D2 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CECD93296423AA866C3E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		17B5CF1D0E79361CC8FBA68F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17B5CF2B83424B8C28EC283F /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				17B5CC03D764FA6F3C8ECC17 /* tooltip-navigation-app */,
 				17B5C64AA55DA048052ACEE1 /* tooltip-navigation-appTests */,
 				DF2CF6AAC25D4964B318F97B /* Pods.xcconfig */,
+				17B5CE57D0EDE69747BA65D2 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,6 +292,7 @@
 				17B5CF41A44512EFA735B516 /* Default@2x.png in Resources */,
 				17B5CB59AF4AE0CA10D9CC4D /* Default-568h@2x.png in Resources */,
 				17B5C220D8A02AB6EDB89523 /* MainStoryboard.storyboard in Resources */,
+				17B5C27F6ED59C18D1633AB4 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
